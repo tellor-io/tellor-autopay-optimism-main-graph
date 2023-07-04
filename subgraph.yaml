@@ -28,8 +28,6 @@ dataSources:
           handler: handleDataFeedFunded
         - event: NewDataFeed(indexed bytes32,indexed bytes32,bytes,address)
           handler: handleNewDataFeed
-        - event: OneTimeTipClaimed(indexed bytes32,indexed uint256,indexed address)
-          handler: handleOneTimeTipClaimed
         - event: TipAdded(indexed bytes32,indexed uint256,bytes,address)
           handler: handleTipAdded
         - event: TipClaimed(indexed bytes32,indexed bytes32,indexed uint256,address)
